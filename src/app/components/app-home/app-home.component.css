@@ -1,6 +1,33 @@
-.center {
+img.img-responsive {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+  margin: auto;
+  max-width: 100vw;
+  max-height: 75vh;
+}
+nav {
+  background-color: black;
+  border-color: black;
+}
+.navbar-nav li a {
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-nav li a:hover{
+  color: #fcbed3 !important;
+}
+
+.nav-link {
+  font-family: TrashPanda;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.navbar-collapse {
+  background-color: black !important;
+}
+
+.box {
+  overflow-y: hidden;
 }
