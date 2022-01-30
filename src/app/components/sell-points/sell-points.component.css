@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+  .description {
+    font-size: 0.8rem !important;
+  }
+}
+
 .intro {
   font-family: Helvetica;
   font-weight: bold;
@@ -6,10 +12,4 @@
 
 .description {
   font-size: 2vw
-}
-
-@media (max-width: 768px) {
-  .description {
-    font-size: 0.8rem !important;
-  }
 }

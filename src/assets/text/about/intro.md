@@ -1,0 +1,1 @@
+Les potions de Mana vous proposent de redécouvrir le goût des fleurs et des plantes aromatiques, infusées ou à croquer, fraiches ou séchées, naturelles ou transformées. Des délices pour émoustiller vos papilles et vos yeux!
