@@ -3,3 +3,13 @@
   font-weight: bold;
   font-size: 1rem
 }
+
+.description {
+  font-size: 2vw
+}
+
+@media (max-width: 768px) {
+  .description {
+    font-size: 0.8rem !important;
+  }
+}
