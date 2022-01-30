@@ -41,3 +41,23 @@ button:focus {
   outline: none;
   box-shadow: none;
 }
+
+.box {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: TrashPanda;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: TrashPanda;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+body {
+  color: white;
+}

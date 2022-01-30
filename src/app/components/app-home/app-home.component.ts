@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Page} from "../../model/page";
 
 @Component({
   selector: 'app-app-home',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app-home.component.css']
 })
 export class AppHomeComponent implements OnInit {
+  current_page = Page.FRONT_PAGE;
 
   constructor() { }
 

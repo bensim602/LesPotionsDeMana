@@ -1,38 +1,7 @@
 <div class="box">
-  <div class="row header ml-auto">
-    <nav class="navbar navbar-expand-md navbar-dark">
-      <div class="d-flex flex-grow-1">
-        <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-        <div class="w-100 text-right">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-          <li class="nav-item active mr-3">
-            <a class="nav-link" href="#">À PROPOS</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#">MES PRODUITS</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#">POINTS DE VENTE</a>
-          </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="#">CONTACT</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+  <app-navbar [current_page]="current_page"></app-navbar>
   <div class="row content">
     <img src="assets/img/PotionsDeMana.jpg" alt="Logo Les Potions de Mana" class="img-responsive center-block align-content-between">
   </div>
-  <div class="row footer">
-    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-bottom bg-inverse p-0">
-      <span class="ml-auto pl-3 pr-3 pb-1 pt-1 text-black bg-white" style="font-family: TrashPanda; font-size: large">Mentions Légales</span>
-    </nav>
-  </div>
+  <app-footer></app-footer>
 </div>

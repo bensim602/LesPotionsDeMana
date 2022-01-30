@@ -1,0 +1,28 @@
+
+nav {
+  background-color: black;
+  border-color: black;
+}
+
+.navbar-nav li.active a {
+  color: black !important;
+}
+
+.navbar-nav li.active {
+  background-color: white !important;
+}
+
+.nav-link:hover{
+  color: #fcbed3 !important;
+}
+
+.nav-link {
+  font-family: TrashPanda;
+  font-weight: bold;
+  font-size: x-large;
+  color: white !important;
+}
+
+.navbar-collapse {
+  background-color: black !important;
+}

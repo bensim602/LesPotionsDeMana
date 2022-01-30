@@ -1,0 +1,26 @@
+<div class="row header">
+  <div class="col m-4 content d-none d-md-block" *ngIf="current_page != frontPage">
+    <a href="">
+      <img src="assets/img/PotionsDeMana.jpg" alt="Logo Les Potions de Mana" style="height: 6em">
+    </a>
+  </div>
+  <nav class="navbar mb-auto navbar-expand-md navbar-dark ml-auto pt-0">
+    <div class="d-flex flex-grow-1">
+      <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+      <div class="w-100 text-right mt-4">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse flex-grow-1 text-right pt-0" id="myNavbar7">
+      <ul class="navbar-nav ml-auto flex-nowrap mr-2">
+        <li *ngFor="let page of pages" [ngClass]="page.displayName === current_page ? 'nav-item pl-1 pr-1 pt-2 active' : 'nav-item pl-1 pr-1 pt-2'">
+          <a class="nav-link" [href]="page.url">
+            {{ page.displayName }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
