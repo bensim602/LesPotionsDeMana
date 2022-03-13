@@ -1,5 +1,44 @@
 <div class="box pl-4 pr-4">
   <app-navbar [current_page]="current_page"></app-navbar>
-  <span>Work in progress</span>
+  <div class="row justify-content-center mb-4">
+    <h1 class="text-center">Les points de vente</h1>
+  </div>
+  <div class="d-none d-sm-block">
+    <div class="row pb-5">
+      <ng-container *ngFor="let product of products;  let isOdd = odd;">
+        <ng-container *ngIf="!isOdd">
+          <div class="col-6 mb-3 pr-4 text-center">
+            <img [src]="'assets/img/products/' + product.img" [alt]="'Image ' + product.name" class="img-fluid">
+          </div>
+          <div class="description col-6 mb-3 pr-4">
+            <h2 class="mb-3">{{product.name}}</h2>
+            <span class="description" markdown [src]="'assets/text/products/' + product.description"></span>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="isOdd">
+          <div class="description col-6 mb-3 pr-4">
+            <h2 class="mb-3">{{product.name}}</h2>
+            <span class="description" markdown [src]="'assets/text/products/' + product.description"></span>
+          </div>
+          <div class="col-6 mb-3 pl-4 text-center">
+            <img [src]="'assets/img/products/' + product.img" [alt]="'Image ' + product.name" class="img-fluid">
+          </div>
+        </ng-container>
+      </ng-container>
+    </div>
+  </div>
+  <div class="d-block d-sm-none">
+    <div class="row pb-5">
+      <ng-container *ngFor="let product of products;  let isOdd = odd;">
+        <h2 class="col-12 mb-3 text-center">{{product.name}}</h2>
+        <div class="col-12 mb-3 text-center">
+          <img [src]="'assets/img/products/' + product.img" [alt]="'Image ' + product.name" class="img-fluid">
+        </div>
+        <div class="description col-12 mb-3">
+          <span class="description" markdown [src]="'assets/text/products/' + product.description"></span>
+        </div>
+      </ng-container>
+    </div>
+  </div>
   <app-footer></app-footer>
 </div>

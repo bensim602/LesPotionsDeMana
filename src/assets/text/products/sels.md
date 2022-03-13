@@ -1,0 +1,1 @@
+De beaux et bons sels aux plantes s’ajoutent à la gamme des Potions de Mana! Découvrez sans tarder le sel aux herbes et le sel aux fleurs pour un peu de folie ! Des mélanges réalisés à base de gros sel issu de la coopérative Paysans et Artisans.

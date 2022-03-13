@@ -1,0 +1,1 @@
+Nouveauté de cette année! Je vous propose une gamme d’épices locales produites dans mes jardins et sechées avec soin. Du persil, du basilic, du thym, du romarin... mais aussi des mélanges à poisson, à salades ou même à pizza !

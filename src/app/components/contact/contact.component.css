@@ -1,0 +1,17 @@
+.description {
+  font-size: 1.6vw
+}
+
+@media (max-width: 768px) {
+  .description {
+    font-size: 0.8rem !important;
+  }
+}
+
+button {
+  font-family: TrashPanda;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: black;
+  background-color: white;
+}

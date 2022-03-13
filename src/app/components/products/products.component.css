@@ -1,0 +1,9 @@
+.description {
+  font-size: 2.5vw
+}
+
+@media (max-width: 768px) {
+  .description {
+    font-size: 0.8rem !important;
+  }
+}

@@ -1,5 +1,39 @@
+<div id="top"></div>
 <div class="box pl-4 pr-4">
   <app-navbar [current_page]="current_page"></app-navbar>
-  <span>Work in progress</span>
+  <div class="pl-4 pr-4">
+    <div class="alert alert-success" role="alert" *ngIf="submitted">
+      Votre demande a été envoyée !
+    </div>
+    <h1 class="pb-4">Contact</h1>
+    <form [formGroup]="form" >
+      <span class="description font-weight-bold row pb-2">Vous voulez en savoir plus sur mon projet ?</span>
+      <span class="description font-weight-bold row pb-2">Vous avez envie de vendre mes produits ou de collaborer avec moi pour de folles aventures aromatiques ?</span>
+      <span class="description font-weight-bold row pb-2">Vous n’avez pas trouvé de point de vente près de chez vous mais vous rêvez de gouter mes produits ?</span>
+      <span class="description font-weight-bold row pb-5">Contactez-moi sans tarder via ce formulaire !</span>
+      <div class="form-group row">
+        <label for="name" class="col-12 col-sm-4 description">Nom, Prénom</label>
+        <input type="text" formControlName="name" class="form-control col-12 col-sm-6" id="name" name="name">
+      </div>
+      <div class="form-group row">
+        <label for="email" class="col-12 col-sm-4 description">Adresse mail</label>
+        <input type="email" formControlName="email" class="form-control col-12 col-sm-6" id="email" name="email">
+      </div>
+      <div class="form-group row">
+        <label for="phone" class="col-12 col-sm-4 description">Numéro téléphone</label>
+        <input type="tel" formControlName="phone" class="form-control col-12 col-sm-6" id="phone" name="phone">
+      </div>
+      <div class="form-group row">
+        <label for="message" class="col-12 col-sm-4 description">Votre message</label>
+        <textarea formControlName="message" class="form-control col-12 col-sm-6" rows="12" name="message" id="message"></textarea>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-4"></div>
+        <div class="col-12 col-sm-6 text-right pr-0 pb-5 ">
+          <button type="submit" class="mr-auto" (click)="onSubmit()">ENVOYER</button>
+        </div>
+      </div>
+    </form>
+  </div>
   <app-footer></app-footer>
 </div>

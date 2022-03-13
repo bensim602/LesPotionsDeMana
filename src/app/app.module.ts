@@ -12,6 +12,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MarkdownModule } from 'ngx-markdown';
 import {HttpClient, HttpClientModule} from "@angular/common/http";
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
     AppRoutingModule,
     HttpClientModule,
     MarkdownModule.forRoot({ loader: HttpClient }),

@@ -1,0 +1,1 @@
+Rien de tel qu’une bonne infusion de plantes fraiches pour profiter de tous les arômes qu’elles ont à nous offrir! Pour vous partager cette expérience, je vous propose de découvrir les bouquets à infuser. De jolis petits bouquets de fleurs qui finiront dans la théière à la fin du repas! Un délice pour les yeux et pour le palais!
