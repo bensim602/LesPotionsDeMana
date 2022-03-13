@@ -1,0 +1,1 @@
+Fraîches en été, sèches en hiver, les fleurs comestibles colorées parfumerons vos salades et décorerons vos plus beaux gâteaux! Pourquoi ne pas les ajouter dans votre pâte à crêpe ? Surprendre vos invités en garnissant votre crème glacée maison? Une touche florale à originale pour ceux qui aiment allier bon et beau!

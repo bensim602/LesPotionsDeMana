@@ -1,0 +1,1 @@
+Les mélanges que je vous proposent transforment vos moments «tisanes» en véritables voyages gustatifs. Le goût revient au centre de la tasse : fruitées, boisées, mentholée, épicées... Découvrez toutes les nuances que les plantes de chez nous ont à vous offrir. 

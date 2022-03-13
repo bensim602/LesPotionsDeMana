@@ -1,0 +1,1 @@
+Envie d’une boisson  originale? Je vous propose de découvrir des sirops un peu différents! On oublie la traditionnelle grenadine pour un instant! Basilic cannelle, tagète, menthe pomme... de nouvelles plantes ont tant de saveurs à vous offrir ! A ajouter à des coktails ou à siroter simplement avec de l’eau!
