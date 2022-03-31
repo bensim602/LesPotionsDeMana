@@ -12,6 +12,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  font-family: Serif;
 }
 
 .box {
@@ -71,4 +72,14 @@ h2 {
 
 body {
   color: white;
+}
+
+a:not(.nav-link) {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #fcbed3 !important;
 }

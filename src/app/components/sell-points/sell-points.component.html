@@ -3,22 +3,26 @@
   <div class="row justify-content-center">
     <h1 class="text-center">Les points de vente</h1>
   </div>
-  <div class="row mt-3">
-    <div class="col-12">
-      <span markdown class="intro" [src]="'assets/text/selling_points/intro.md'"></span>
+  <div class="d-flex justify-content-center">
+    <div style="max-width: 900px">
+      <div class="row mt-3">
+        <div class="col-12">
+          <span markdown class="intro" [src]="'assets/text/selling_points/intro.md'"></span>
+        </div>
+      </div>
+      <div class="row pb-5">
+        <ng-container *ngFor="let sell_point of sell_points">
+          <div class="col-12 col-sm-6 mb-3 pr-4 text-center">
+            <h2 class="d-block d-sm-none">{{sell_point.name}}</h2>
+            <img [src]="'assets/img/selling_points/' + sell_point.img" [alt]="'Image ' + sell_point.name" class="img-fluid">
+          </div>
+          <div class="description col-12 col-sm-6 mb-3">
+            <h2 class="d-none d-sm-block">{{sell_point.name}}</h2>
+            <span markdown [src]="'assets/text/selling_points/' + sell_point.description"></span>
+          </div>
+        </ng-container>
+      </div>
     </div>
-  </div>
-  <div class="row pb-5">
-    <ng-container *ngFor="let sell_point of sell_points">
-      <div class="col-12 col-sm-6 mb-3 pr-4 text-center">
-        <h2 class="d-block d-sm-none">{{sell_point.name}}</h2>
-        <img [src]="'assets/img/selling_points/' + sell_point.img" [alt]="'Image ' + sell_point.name" class="img-fluid">
-      </div>
-      <div class="description col-12 col-sm-6 mb-3">
-        <h2 class="d-none d-sm-block">{{sell_point.name}}</h2>
-        <span markdown [src]="'assets/text/selling_points/' + sell_point.description"></span>
-      </div>
-    </ng-container>
   </div>
   <app-footer></app-footer>
 </div>
