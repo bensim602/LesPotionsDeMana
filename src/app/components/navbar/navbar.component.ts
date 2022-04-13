@@ -10,7 +10,7 @@ import {MenuItem} from "../../model/menuItem";
 export class NavbarComponent implements OnInit {
   @Input() current_page: Page = Page.FRONT_PAGE;
   frontPage = Page.FRONT_PAGE;
-  prefix = "/LesPotionsDeMana";
+  prefix = "" // "/LesPotionsDeMana";
   pages: MenuItem[] = [
     new MenuItem(Page.ABOUT, "/a_propos"),
     new MenuItem(Page.PRODUCTS, "/produits"),

@@ -1,9 +1,37 @@
-.description {
-  font-size: 2.5vw
-}
-
 @media (max-width: 768px) {
   .description {
     font-size: 0.8rem !important;
   }
+}
+
+.intro {
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.4rem
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  .intro {font-size:1rem;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .intro {font-size: 1.2rem;} /*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .intro {font-size: 1.5rem;} /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .intro {font-size: 1.5rem;} /*1rem = 16px*/
 }
