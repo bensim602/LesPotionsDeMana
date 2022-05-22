@@ -74,12 +74,12 @@ body {
   color: white;
 }
 
-a:not(.nav-link) {
+a:not(.nav-link):not(.email) {
   color: white;
   text-decoration: underline;
   font-weight: bold;
 }
 
-a:hover {
+a:hover:not(.email) {
   color: #fcbed3 !important;
 }

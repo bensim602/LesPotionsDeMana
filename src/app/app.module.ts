@@ -13,6 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MarkdownModule } from 'ngx-markdown';
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {ReactiveFormsModule} from "@angular/forms";
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 @NgModule({
   declarations: [
@@ -27,12 +28,13 @@ import {ReactiveFormsModule} from "@angular/forms";
   ],
   imports: [
     BrowserModule,
+    ModalModule.forRoot(),
     ReactiveFormsModule,
     AppRoutingModule,
     HttpClientModule,
     MarkdownModule.forRoot({ loader: HttpClient }),
   ],
-  providers: [],
+  providers: [  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
