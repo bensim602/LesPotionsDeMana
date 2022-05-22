@@ -1,5 +1,37 @@
 <div class="row footer">
-  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-bottom bg-inverse p-0">
+  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-bottom bg-inverse p-0" (click)="openModal(template)">
     <span class="ml-auto pl-3 pr-3 pb-1 pt-1 text-black bg-white" style="font-family: TrashPanda; font-size: large">Mentions Légales</span>
   </nav>
 </div>
+
+<ng-template #template>
+  <div class="modal-header">
+
+    <button type="button"
+            class="close pull-right"
+            (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <!-- Modal Body -->
+  <div class="modal-body">
+    <span class="pull-left">Marie-Anaïs Simon (ci-après « Potions de Mana » ou le « Responsable du Traitement »)</span><br>
+    <span class="pull-left">Rue Saint-Donat, 91</span><br>
+    <span class="pull-left">5002 Saint-Servais</span><br>
+    <span class="pull-left">BCE/TVA : BE07 63 613 001</span><br>
+    <a href="mailto: marieanais.simon@gmail.com" class="pull-left email">Marieanais.simon@gmail.com</a>
+    <h4 class="m-0">Politique de confidentialité de cookies et de protection des données</h4>
+    <span>Afin de répondre aux questions des potentiel-le-s client-e-s et consommateurs/trices, la responsable du traitement peut être amenée à traiter vos données à caractère personnel lorsque le formulaire de contact est rempli sur le site.</span>
+    <h5 class="m-0">Pourquoi vos données sont-elles traitées ?</h5>
+    <span>Les informations collectées par les Potions de Mana me permettent de répondre à vos questions posées sur le site.</span>
+    <h5 class="m-0">Quelles sont les données traitées ?</h5>
+    <span>Pour les raisons ci-dessus indiquées, les Potions de Mana  peut collecter les informations suivante : nom, prénom, adresse mail et numéro de téléphone.</span>
+    <h5 class="m-0">Par qui les données sont-elles traitées ?</h5>
+    <span>Les données transmises via le formulaire de contact sont uniquement traitées par la responsable du traitement et ne sont en aucun cas communiquées à des tiers, sauf demande explicite de la personne communicant ses données de contact.</span>
+    <h5 class="m-0">Combien de temps vos données sont-elles conservées ?</h5>
+    <span>Vos données sont conservées jusqu’au moment de leur utilisation pour établir une réponse à la demande de contact envoyée. Elles ne seront en tous les cas pas conservées plus d’un mois. Si vous souhaitez modifier les données ou les supprimer avant cela, vous pouvez en faire la demande explicite à l’adresse mail suivante : <a href="mailto: marieanais.simon@gmail.com" class="email">marieanais.simon@gmail.com</a></span>
+    <h5 class="m-0">Cookies Google Analytics :</h5>
+    <span>Les informations générées par ces cookies concernant l’utilisation du site internet Potion de Mana ainsi que l’adresse IP actuelle seront transmises par le navigateur internet à Google qui les enregistrera sur des serveurs aux États-Unis et dans d’autres pays. Google utilisera ces informations pour compte des Potions de Mana afin d’évaluer l’utilisation de ce site internet, d’élaborer des rapports sur l’activité du site internet et de fournir d’autres services en rapport avec l’activité du site internet et Internet. L’adresse IP collectée via Google Analytics ne sera associée à aucune autre donnée conservée par Google. L’utilisateur peut décider de désactiver ou de bloquer les cookies de Google en sélectionnant les paramètres appropriés dans son navigateur. Dans ce cas, il se peut que l’utilisateur ne puisse plus utiliser l’intégralité des fonctions du site Potions de Mana. L’utilisateur peut télécharger et installer le module complémentaire de navigateur pour la désactivation de Google Analytics disponible sur le site de Google. Le site utilise Google Analytics avec la fonction anonymizeIp. L’adresse IP de l’utilisateur est par ailleurs tronquée au dernier octet avant son stockage afin d’éviter toute identification.</span>
+  </div>
+</ng-template>

@@ -14,7 +14,7 @@
         <ng-container *ngFor="let sell_point of sell_points">
           <div class="col-12 col-sm-6 mb-3 pr-4 text-center">
             <h2 class="d-block d-sm-none">{{sell_point.name}}</h2>
-            <img [src]="'assets/img/selling_points/' + sell_point.img" [alt]="'Image ' + sell_point.name" class="img-fluid">
+            <img [src]="'assets/img/selling_points/' + sell_point.img" [alt]="sell_point.imgDescr" class="img-fluid">
           </div>
           <div class="description col-12 col-sm-6 mb-3">
             <h2 class="d-none d-sm-block">{{sell_point.name}}</h2>

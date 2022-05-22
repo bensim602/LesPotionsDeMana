@@ -10,7 +10,7 @@
           <ng-container *ngFor="let product of products;  let isOdd = odd;">
             <ng-container *ngIf="!isOdd">
               <div class="col-6 mb-3 pr-4 text-center">
-                <img [src]="'assets/img/products/' + product.img" [alt]="'Image ' + product.name" class="img-fluid">
+                <img [src]="'assets/img/products/' + product.img" [alt]="product.imgDescr" class="img-fluid">
               </div>
               <div class="description col-6 mb-3 pr-4">
                 <h2 class="mb-3">{{product.name}}</h2>
@@ -23,7 +23,7 @@
                 <span class="description" markdown [src]="'assets/text/products/' + product.description"></span>
               </div>
               <div class="col-6 mb-3 pl-4 text-center">
-                <img [src]="'assets/img/products/' + product.img" [alt]="'Image ' + product.name" class="img-fluid">
+                <img [src]="'assets/img/products/' + product.img" [alt]="product.imgDescr" class="img-fluid">
               </div>
             </ng-container>
           </ng-container>
@@ -34,7 +34,7 @@
           <ng-container *ngFor="let product of products;  let isOdd = odd;">
             <h2 class="col-12 mb-3 text-center">{{product.name}}</h2>
             <div class="col-12 mb-3 text-center">
-              <img [src]="'assets/img/products/' + product.img" [alt]="'Image ' + product.name" class="img-fluid">
+              <img [src]="'assets/img/products/' + product.img" [alt]="product.imgDescr" class="img-fluid">
             </div>
             <div class="description col-12 mb-3">
               <span class="description" markdown [src]="'assets/text/products/' + product.description"></span>

@@ -1,3 +1,10 @@
 .text-black {
   color: black !important;
 }
+
+.modal-body {
+  font-size: 0.8em;
+  color: black !important;
+}
+
+
