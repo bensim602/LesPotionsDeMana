@@ -36,7 +36,6 @@ export class ContactComponent implements OnInit {
     message = message + "MESSAGE: \n" + this.form.value ['message']
     const formData = new FormData();
     this.form.reset();
-    this.document.getElementById('top').scrollIntoView();
 
     formData.append('message', message)
 
